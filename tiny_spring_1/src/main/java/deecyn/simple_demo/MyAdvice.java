@@ -1,4 +1,4 @@
-package deecyn.component;
+package deecyn.simple_demo;
 
 import java.lang.reflect.InvocationHandler;
 

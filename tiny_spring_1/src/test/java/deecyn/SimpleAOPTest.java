@@ -1,9 +1,9 @@
 package deecyn;
 
-import deecyn.component.MyAdvice;
-import deecyn.component.BeforeAdvice;
-import deecyn.component.MethodInvocation;
-import deecyn.component.SimpleAOP;
+import deecyn.simple_demo.MyAdvice;
+import deecyn.simple_demo.BeforeAdvice;
+import deecyn.simple_demo.MethodInvocation;
+import deecyn.simple_demo.SimpleAOP;
 import deecyn.service.HelloService;
 import deecyn.service.HelloServiceImpl;
 import org.junit.Test;

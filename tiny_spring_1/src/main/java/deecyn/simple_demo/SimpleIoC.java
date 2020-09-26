@@ -1,4 +1,4 @@
-package deecyn.component;
+package deecyn.simple_demo;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

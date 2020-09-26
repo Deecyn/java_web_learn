@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a9ff664-3cbf-4047-b6d8-64a7676e3010" name="Default Changelist" comment="" />
+    <list default="true" id="3a9ff664-3cbf-4047-b6d8-64a7676e3010" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/BeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/BeforeAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/MethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/MethodInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/MyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/SimpleAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/SimpleAOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/SimpleIoC.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/SimpleIoC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleAOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleAOPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleIocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleIocTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1i38niZaRXq6WRES6iLk9EdVpvL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,18 +92,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601125083352</updated>
-      <workItem from="1601125084699" duration="561000" />
+      <workItem from="1601125084699" duration="1875000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1601125916197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601125916197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1601125683208">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125683208" />
+    <state x="188" y="51" key="CommitChangelistDialog2" timestamp="1601125915981">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="188" y="51" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125915981" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1601125663524">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -111,9 +144,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="45" key="SettingsEditor/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125677215" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1601126676874">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601126676874" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1601125930215">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125930215" />
     <state x="180" y="72" key="new project wizard" timestamp="1601125568217">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="180" y="72" key="new project wizard/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125568217" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601127402728">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601127402728" />
   </component>
 </project>
