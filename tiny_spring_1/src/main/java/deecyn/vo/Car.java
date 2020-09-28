@@ -1,4 +1,4 @@
-package deecyn.bean;
+package deecyn.vo;
 
 /**
  * @author Deecyn

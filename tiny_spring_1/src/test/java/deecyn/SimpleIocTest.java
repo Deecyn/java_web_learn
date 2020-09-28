@@ -1,7 +1,7 @@
 package deecyn;
 
-import deecyn.bean.Car;
-import deecyn.bean.Wheel;
+import deecyn.vo.Car;
+import deecyn.vo.Wheel;
 import deecyn.simple_demo.SimpleIoC;
 import org.junit.Test;
 

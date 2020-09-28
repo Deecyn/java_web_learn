@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a9ff664-3cbf-4047-b6d8-64a7676e3010" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/BeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/BeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/config/BeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/config/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/config/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/factory/BeanFactoryAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/ioc/xml/XmlBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/IoCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/BeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/BeforeAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/MethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/MethodInvocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/MyAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/SimpleAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/SimpleAOP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/component/SimpleIoC.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/simple_demo/SimpleIoC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleAOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleAOPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/vo/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/bean/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/java/deecyn/vo/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/main/resources/spring-ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/main/resources/spring-ioc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleIocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/SimpleIocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiny_spring_1/tiny_spring_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tiny_spring_1/tiny_spring_1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IoCTest.testGetBean">
     <configuration name="IOCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.shiyujun.demo.IOCDemo" />
       <module name="spring_learn_shiyujun" />
@@ -64,8 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IoCTest.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tiny_spring_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deecyn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="deecyn" />
+      <option name="MAIN_CLASS_NAME" value="deecyn.IoCTest" />
+      <option name="METHOD_NAME" value="testGetBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IoCTest.testGetBean" />
         <item itemvalue="Application.IOCDemo" />
       </list>
     </recent_temporary>
@@ -92,7 +119,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601125083352</updated>
-      <workItem from="1601125084699" duration="1875000" />
+      <workItem from="1601125084699" duration="2746000" />
+      <workItem from="1601189840621" duration="6539000" />
+      <workItem from="1601277363397" duration="6970000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1601125916197</created>
@@ -101,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601125916197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新 IoC 和 AOP 的简单实现名称">
+      <created>1601127601832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601127601832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,33 +145,58 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="更新 IoC 和 AOP 的简单实现名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 IoC 和 AOP 的简单实现名称" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1601125683208">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125683208" />
-    <state x="188" y="51" key="CommitChangelistDialog2" timestamp="1601125915981">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1601195914833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="188" y="51" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125915981" />
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1601125663524">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601195914833" />
+    <state x="232" y="128" width="412" height="579" key="#xdebugger.evaluate" timestamp="1601278351981">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125663524" />
-    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1601125663522">
+    <state x="232" y="128" width="412" height="579" key="#xdebugger.evaluate/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601278351981" />
+    <state x="188" y="51" key="CommitChangelistDialog2" timestamp="1601127601608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.center/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125663522" />
-    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1601125663521">
+    <state x="188" y="51" key="CommitChangelistDialog2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601127601608" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1601282170520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.left/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125663521" />
-    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1601125663523">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601282170520" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1601282170518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.right/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125663523" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601282170518" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1601282170516">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601282170516" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1601282170519">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601282170519" />
+    <state width="1398" height="380" key="GridCell.Tab.1.bottom" timestamp="1601281583606">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="380" key="GridCell.Tab.1.bottom/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601281583606" />
+    <state width="1398" height="380" key="GridCell.Tab.1.center" timestamp="1601281583604">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="380" key="GridCell.Tab.1.center/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601281583604" />
+    <state width="1398" height="380" key="GridCell.Tab.1.left" timestamp="1601281583603">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="380" key="GridCell.Tab.1.left/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601281583603" />
+    <state width="1398" height="380" key="GridCell.Tab.1.right" timestamp="1601281583605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="380" key="GridCell.Tab.1.right/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601281583605" />
     <state x="332" y="151" key="NewModule_or_Project.wizard" timestamp="1601125610719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -144,21 +205,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="45" key="SettingsEditor/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125677215" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1601126676874">
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1601193254484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="450" y="200" width="540" height="524" key="StructurePopup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601126676874" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1601125930215">
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601193254484" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1601127603929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125930215" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601127603929" />
     <state x="180" y="72" key="new project wizard" timestamp="1601125568217">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="180" y="72" key="new project wizard/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601125568217" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601127402728">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601193285380">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601127402728" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601193285380" />
+    <state x="363" y="141" key="spring file set editor" timestamp="1601277593124">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="363" y="141" key="spring file set editor/-1080.0.1080.810/0.0.1440.900@0.0.1440.900" timestamp="1601277593124" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tiny_spring_1/src/test/java/deecyn/IoCTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
